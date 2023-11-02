@@ -1,0 +1,6 @@
+framework module csi {
+    umbrella header "csi.h"
+
+    export *
+    module * { export * }
+}
