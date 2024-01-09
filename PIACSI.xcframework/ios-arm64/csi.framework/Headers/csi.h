@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class CsiCSIRequestError, CsiCSIBuilder, CsiKotlinArray<T>, CsiCSIEndpoint, CsiKotlinEnumCompanion, CsiKotlinEnum<E>, CsiCSIInternalErrorCode, CsiCSIRequestErrorCSIException, CsiProviderType, CsiReportType, CsiCSIHttpClient, CsiKtor_client_coreHttpClient, CsiKotlinPair<__covariant A, __covariant B>, CsiCSIUtils, CsiKtor_client_coreHttpClientEngineConfig, CsiKtor_client_coreHttpClientConfig<T>, CsiKtor_eventsEvents, CsiKtor_client_coreHttpReceivePipeline, CsiKtor_client_coreHttpRequestPipeline, CsiKtor_client_coreHttpResponsePipeline, CsiKtor_client_coreHttpSendPipeline, CsiKtor_client_coreHttpRequestData, CsiKtor_client_coreHttpResponseData, CsiKotlinx_coroutines_coreCoroutineDispatcher, CsiKtor_client_coreProxyConfig, CsiKtor_utilsAttributeKey<T>, CsiKtor_eventsEventDefinition<T>, CsiKtor_utilsPipelinePhase, CsiKtor_utilsPipeline<TSubject, TContext>, CsiKtor_client_coreHttpReceivePipelinePhases, CsiKtor_client_coreHttpResponse, CsiKotlinUnit, CsiKtor_client_coreHttpRequestPipelinePhases, CsiKtor_client_coreHttpRequestBuilder, CsiKtor_client_coreHttpResponsePipelinePhases, CsiKtor_client_coreHttpResponseContainer, CsiKtor_client_coreHttpClientCall, CsiKtor_client_coreHttpSendPipelinePhases, CsiKotlinThrowable, CsiKotlinException, CsiKotlinRuntimeException, CsiKotlinIllegalStateException, CsiKtor_httpUrl, CsiKtor_httpHttpMethod, CsiKtor_httpOutgoingContent, CsiKtor_httpHttpStatusCode, CsiKtor_utilsGMTDate, CsiKtor_httpHttpProtocolVersion, CsiKotlinAbstractCoroutineContextElement, CsiKotlinx_coroutines_coreCoroutineDispatcherKey, CsiKtor_httpHeadersBuilder, CsiKtor_client_coreHttpRequestBuilderCompanion, CsiKtor_httpURLBuilder, CsiKtor_utilsTypeInfo, CsiKtor_client_coreHttpClientCallCompanion, CsiKtor_httpUrlCompanion, CsiKtor_httpURLProtocol, CsiKtor_httpHttpMethodCompanion, CsiKtor_httpContentType, CsiKotlinCancellationException, CsiKtor_httpHttpStatusCodeCompanion, CsiKtor_utilsGMTDateCompanion, CsiKtor_utilsWeekDay, CsiKtor_utilsMonth, CsiKtor_httpHttpProtocolVersionCompanion, CsiKotlinAbstractCoroutineContextKey<B, E>, CsiKtor_ioMemory, CsiKtor_ioChunkBuffer, CsiKotlinByteArray, CsiKtor_ioBuffer, CsiKtor_ioByteReadPacket, CsiKtor_utilsStringValuesBuilderImpl, CsiKtor_httpURLBuilderCompanion, CsiKtor_httpURLProtocolCompanion, CsiKtor_httpHeaderValueParam, CsiKtor_httpHeaderValueWithParametersCompanion, CsiKtor_httpHeaderValueWithParameters, CsiKtor_httpContentTypeCompanion, CsiKtor_utilsWeekDayCompanion, CsiKtor_utilsMonthCompanion, CsiKtor_ioMemoryCompanion, CsiKtor_ioBufferCompanion, CsiKtor_ioChunkBufferCompanion, CsiKotlinByteIterator, CsiKtor_ioInputCompanion, CsiKtor_ioInput, CsiKtor_ioByteReadPacketCompanion, CsiKotlinKTypeProjection, CsiKotlinKVariance, CsiKotlinKTypeProjectionCompanion;
+@class CsiCSIRequestError, CsiCSIBuilder, CsiKotlinArray<T>, CsiCSIEndpoint, CsiKotlinEnumCompanion, CsiKotlinEnum<E>, CsiCSIInternalErrorCode, CsiCSIRequestErrorCSIException, CsiProviderType, CsiReportType, CsiCSIHttpClient, CsiKtor_client_coreHttpClient, CsiKotlinPair<__covariant A, __covariant B>, CsiCSIUtils, CsiKtor_client_coreHttpClientEngineConfig, CsiKtor_client_coreHttpClientConfig<T>, CsiKtor_eventsEvents, CsiKtor_client_coreHttpReceivePipeline, CsiKtor_client_coreHttpRequestPipeline, CsiKtor_client_coreHttpResponsePipeline, CsiKtor_client_coreHttpSendPipeline, CsiKtor_client_coreHttpRequestData, CsiKtor_client_coreHttpResponseData, CsiKotlinx_coroutines_coreCoroutineDispatcher, CsiKtor_client_coreProxyConfig, CsiKtor_utilsAttributeKey<T>, CsiKtor_eventsEventDefinition<T>, CsiKtor_utilsPipelinePhase, CsiKtor_utilsPipeline<TSubject, TContext>, CsiKtor_client_coreHttpReceivePipelinePhases, CsiKtor_client_coreHttpResponse, CsiKotlinUnit, CsiKtor_client_coreHttpRequestPipelinePhases, CsiKtor_client_coreHttpRequestBuilder, CsiKtor_client_coreHttpResponsePipelinePhases, CsiKtor_client_coreHttpResponseContainer, CsiKtor_client_coreHttpClientCall, CsiKtor_client_coreHttpSendPipelinePhases, CsiKotlinThrowable, CsiKotlinException, CsiKotlinRuntimeException, CsiKotlinIllegalStateException, CsiKtor_httpUrl, CsiKtor_httpHttpMethod, CsiKtor_httpOutgoingContent, CsiKtor_httpHttpStatusCode, CsiKtor_utilsGMTDate, CsiKtor_httpHttpProtocolVersion, CsiKotlinAbstractCoroutineContextElement, CsiKotlinx_coroutines_coreCoroutineDispatcherKey, CsiKtor_httpHeadersBuilder, CsiKtor_client_coreHttpRequestBuilderCompanion, CsiKtor_httpURLBuilder, CsiKtor_utilsTypeInfo, CsiKtor_client_coreHttpClientCallCompanion, CsiKtor_httpUrlCompanion, CsiKtor_httpURLProtocol, CsiKtor_httpHttpMethodCompanion, CsiKtor_httpContentType, CsiKotlinCancellationException, CsiKtor_httpHttpStatusCodeCompanion, CsiKtor_utilsGMTDateCompanion, CsiKtor_utilsWeekDay, CsiKtor_utilsMonth, CsiKtor_httpHttpProtocolVersionCompanion, CsiKotlinAbstractCoroutineContextKey<B, E>, CsiKtor_ioMemory, CsiKtor_ioChunkBuffer, CsiKtor_ioBuffer, CsiKotlinByteArray, CsiKtor_ioByteReadPacket, CsiKtor_utilsStringValuesBuilderImpl, CsiKtor_httpURLBuilderCompanion, CsiKtor_httpURLProtocolCompanion, CsiKtor_httpHeaderValueParam, CsiKtor_httpHeaderValueWithParametersCompanion, CsiKtor_httpHeaderValueWithParameters, CsiKtor_httpContentTypeCompanion, CsiKtor_utilsWeekDayCompanion, CsiKtor_utilsMonthCompanion, CsiKtor_ioMemoryCompanion, CsiKtor_ioBufferCompanion, CsiKtor_ioChunkBufferCompanion, CsiKotlinByteIterator, CsiKtor_ioInputCompanion, CsiKtor_ioInput, CsiKtor_ioByteReadPacketCompanion, CsiKotlinKTypeProjection, CsiKotlinKVariance, CsiKotlinKTypeProjectionCompanion;
 
 @protocol CsiICSIProvider, CsiCSIAPI, CsiIEndPointProvider, CsiKotlinComparable, CsiKotlinIterator, CsiKotlinCoroutineContext, CsiKotlinx_coroutines_coreCoroutineScope, CsiKtor_ioCloseable, CsiKtor_client_coreHttpClientEngine, CsiKtor_client_coreHttpClientEngineCapability, CsiKtor_utilsAttributes, CsiKotlinCoroutineContextElement, CsiKotlinCoroutineContextKey, CsiKtor_client_coreHttpClientPlugin, CsiKotlinx_coroutines_coreDisposableHandle, CsiKotlinSuspendFunction2, CsiKtor_httpHeaders, CsiKotlinx_coroutines_coreJob, CsiKotlinContinuation, CsiKotlinContinuationInterceptor, CsiKotlinx_coroutines_coreRunnable, CsiKotlinFunction, CsiKtor_httpHttpMessage, CsiKtor_ioByteReadChannel, CsiKtor_httpHttpMessageBuilder, CsiKtor_client_coreHttpRequest, CsiKtor_httpParameters, CsiKotlinMapEntry, CsiKtor_utilsStringValues, CsiKotlinx_coroutines_coreChildHandle, CsiKotlinx_coroutines_coreChildJob, CsiKotlinSequence, CsiKotlinx_coroutines_coreSelectClause0, CsiKtor_ioReadSession, CsiKotlinSuspendFunction1, CsiKotlinAppendable, CsiKtor_utilsStringValuesBuilder, CsiKtor_httpParametersBuilder, CsiKotlinKClass, CsiKotlinKType, CsiKotlinx_coroutines_coreParentJob, CsiKotlinx_coroutines_coreSelectInstance, CsiKotlinx_coroutines_coreSelectClause, CsiKtor_ioObjectPool, CsiKotlinKDeclarationContainer, CsiKotlinKAnnotatedElement, CsiKotlinKClassifier;
 
@@ -466,8 +466,8 @@ __attribute__((swift_name("Ktor_eventsEvents")))
 
 __attribute__((swift_name("Ktor_utilsPipeline")))
 @interface CsiKtor_utilsPipeline<TSubject, TContext> : CsiBase
-- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithPhases:(CsiKotlinArray<CsiKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer));
 - (void)addPhasePhase:(CsiKtor_utilsPipelinePhase *)phase __attribute__((swift_name("addPhase(phase:)")));
 - (void)afterIntercepted __attribute__((swift_name("afterIntercepted()")));
 
@@ -493,8 +493,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpReceivePipeline")))
 @interface CsiKtor_client_coreHttpReceivePipeline : CsiKtor_utilsPipeline<CsiKtor_client_coreHttpResponse *, CsiKotlinUnit *>
 - (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithPhases:(CsiKotlinArray<CsiKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) CsiKtor_client_coreHttpReceivePipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end
@@ -503,8 +503,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpRequestPipeline")))
 @interface CsiKtor_client_coreHttpRequestPipeline : CsiKtor_utilsPipeline<id, CsiKtor_client_coreHttpRequestBuilder *>
 - (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithPhases:(CsiKotlinArray<CsiKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) CsiKtor_client_coreHttpRequestPipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end
@@ -513,8 +513,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpResponsePipeline")))
 @interface CsiKtor_client_coreHttpResponsePipeline : CsiKtor_utilsPipeline<CsiKtor_client_coreHttpResponseContainer *, CsiKtor_client_coreHttpClientCall *>
 - (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithPhases:(CsiKotlinArray<CsiKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) CsiKtor_client_coreHttpResponsePipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end
@@ -523,8 +523,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 @interface CsiKtor_client_coreHttpSendPipeline : CsiKtor_utilsPipeline<id, CsiKtor_client_coreHttpRequestBuilder *>
 - (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithPhases:(CsiKotlinArray<CsiKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhase:(CsiKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<CsiKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) CsiKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end
@@ -542,10 +542,10 @@ __attribute__((swift_name("KotlinCoroutineContextKey")))
 
 __attribute__((swift_name("KotlinThrowable")))
 @interface CsiKotlinThrowable : CsiBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 
 /**
@@ -565,8 +565,8 @@ __attribute__((swift_name("KotlinException")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("KotlinRuntimeException")))
@@ -574,8 +574,8 @@ __attribute__((swift_name("KotlinRuntimeException")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("KotlinIllegalStateException")))
@@ -583,8 +583,8 @@ __attribute__((swift_name("KotlinIllegalStateException")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 
@@ -597,8 +597,8 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CsiKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -846,8 +846,8 @@ __attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
 
 __attribute__((swift_name("Ktor_client_coreHttpClientCall")))
 @interface CsiKtor_client_coreHttpClientCall : CsiBase <CsiKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithClient:(CsiKtor_client_coreHttpClient *)client requestData:(CsiKtor_client_coreHttpRequestData *)requestData responseData:(CsiKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithClient:(CsiKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithClient:(CsiKtor_client_coreHttpClient *)client requestData:(CsiKtor_client_coreHttpRequestData *)requestData responseData:(CsiKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) CsiKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
 
 /**
@@ -968,8 +968,8 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 - (id<CsiKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<CsiKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
 - (void)cancelCause:(CsiKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
 - (CsiKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<CsiKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(CsiKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 - (id<CsiKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(CsiKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<CsiKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(CsiKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -1112,13 +1112,13 @@ __attribute__((swift_name("Ktor_ioByteReadChannel")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)readAvailableDst:(CsiKtor_ioChunkBuffer *)dst completionHandler:(void (^)(CsiInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
+- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(CsiKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)readAvailableDst:(CsiKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(CsiInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
-- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(CsiKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -1738,8 +1738,8 @@ __attribute__((swift_name("Ktor_ioInput")))
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 - (void)markNoMoreChunksAvailable __attribute__((swift_name("markNoMoreChunksAvailable()")));
-- (int64_t)peekToDestination:(CsiKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:)")));
 - (int32_t)peekToBuffer:(CsiKtor_ioChunkBuffer *)buffer __attribute__((swift_name("peekTo(buffer:)")));
+- (int64_t)peekToDestination:(CsiKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:)")));
 - (int8_t)readByte __attribute__((swift_name("readByte()")));
 - (NSString *)readTextMin:(int32_t)min max:(int32_t)max __attribute__((swift_name("readText(min:max:)")));
 - (int32_t)readTextOut:(id<CsiKotlinAppendable>)out min:(int32_t)min max:(int32_t)max __attribute__((swift_name("readText(out:min:max:)")));
