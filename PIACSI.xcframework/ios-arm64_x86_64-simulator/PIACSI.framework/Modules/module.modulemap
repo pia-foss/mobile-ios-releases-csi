@@ -1,6 +1,0 @@
-framework module PIACSI {
-    umbrella header "PIACSI.h"
-
-    export *
-    module * { export * }
-}
